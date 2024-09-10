@@ -1,4 +1,6 @@
 var numbers = ['Tom', 'Tim', 'Tin', 'Tik'];
-for (const number of numbers) {
-    console.log(number);
+let joins = '';
+for(let string of numbers){
+    joins += string;
 }
+console.log(joins.split());
