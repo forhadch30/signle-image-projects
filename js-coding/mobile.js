@@ -22,15 +22,6 @@ const total = getAvg(phones);
 function add(num1, num2) {
     return num1 + num2
 }
-function add(num1, num2) {
-    return num1 / num2
-}
-function add(num1, num2) {
-    return num1 * num2
-}
-function add(num1, num2) {
-    return num1 - num2
-}
 
 function sum(a, b, tray) {
     if (tray === 'add') {
